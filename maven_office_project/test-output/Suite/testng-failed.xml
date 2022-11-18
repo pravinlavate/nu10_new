@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test3testclass(failed)">
+    <classes>
+      <class name="RunnerClass.TCNO11_Demo_Env_Avilablebalance">
+        <methods>
+          <include name="amountenter"/>
+          <include name="clickonProceddbutton"/>
+          <include name="closebrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- RunnerClass.TCNO11_Demo_Env_Avilablebalance -->
+      <class name="RunnerClass.Excelsheet">
+        <methods>
+          <include name="launchbRowser"/>
+          <include name="payto_merchantbutton"/>
+          <include name="enterdata"/>
+        </methods>
+      </class> <!-- RunnerClass.Excelsheet -->
+      <class name="RunnerClass.Check_DOGE_CryptoCurrency2">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="launchBroswser"/>
+          <include name="DOGEcryptocurrency"/>
+          <include name="screenshot"/>
+          <include name="clickononpaybutton"/>
+        </methods>
+      </class> <!-- RunnerClass.Check_DOGE_CryptoCurrency2 -->
+      <class name="RunnerClass.Sucessful_Txn_paywithniva_pay">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="paywithnivaPaybuttonclick"/>
+          <include name="takescrenshotonpop"/>
+          <include name="clickOnQuickpaybutton"/>
+          <include name="launchBroWser"/>
+        </methods>
+      </class> <!-- RunnerClass.Sucessful_Txn_paywithniva_pay -->
+      <class name="RunnerClass.External_Paymentfailed__popup">
+        <methods>
+          <include name="enterdata"/>
+          <include name="checkfuctinality"/>
+          <include name="checkpopmessage"/>
+          <include name="launchBrowser"/>
+          <include name="closebutton"/>
+        </methods>
+      </class> <!-- RunnerClass.External_Paymentfailed__popup -->
+      <class name="RunnerClass.TCNO555_AMOUNT_field_enter_string2crossbrowsing">
+        <methods>
+          <include name="clickonPRoceedButtton"/>
+          <include name="closebrowser"/>
+          <include name="launchbrwser"/>
+          <include name="checkstatus"/>
+          <include name="screencshot"/>
+        </methods>
+      </class> <!-- RunnerClass.TCNO555_AMOUNT_field_enter_string2crossbrowsing -->
+      <class name="RunnerClass.TCNO12_FAiled_carddetail_3DS">
+        <methods>
+          <include name="CHEckedStauts"/>
+          <include name="closebrowser"/>
+          <include name="launchBroswser"/>
+          <include name="clickonprocesdbuttton"/>
+        </methods>
+      </class> <!-- RunnerClass.TCNO12_FAiled_carddetail_3DS -->
+    </classes>
+  </test> <!-- Test3testclass(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TCNO13.Check that  entering  string value  in amount field then purchase button is disable ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-06T13:26:43 IST" name="Default suite" finished-at="2022-10-06T13:27:13 IST" duration-ms="30064">
+    <groups>
+    </groups>
+    <test started-at="2022-10-06T13:26:43 IST" name="Default test" finished-at="2022-10-06T13:27:13 IST" duration-ms="30064">
+      <class name="RunnerClass.TCNO13_AMOUNT_field_enter_string">
+        <test-method is-config="true" signature="launchbrwser()[pri:0, instance:RunnerClass.TCNO13_AMOUNT_field_enter_string@71809907]" started-at="2022-10-06T13:26:43 IST" name="launchbrwser" finished-at="2022-10-06T13:27:01 IST" duration-ms="17228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrwser -->
+        <test-method is-config="true" signature="clickonPRoceedButtton()[pri:0, instance:RunnerClass.TCNO13_AMOUNT_field_enter_string@71809907]" started-at="2022-10-06T13:27:01 IST" name="clickonPRoceedButtton" finished-at="2022-10-06T13:27:01 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonPRoceedButtton -->
+        <test-method signature="checkstatus()[pri:0, instance:RunnerClass.TCNO13_AMOUNT_field_enter_string@71809907]" started-at="2022-10-06T13:27:01 IST" name="checkstatus" finished-at="2022-10-06T13:27:13 IST" duration-ms="11489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatus -->
+        <test-method is-config="true" signature="screencshot()[pri:0, instance:RunnerClass.TCNO13_AMOUNT_field_enter_string@71809907]" started-at="2022-10-06T13:27:13 IST" name="screencshot" finished-at="2022-10-06T13:27:13 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TCNO13.Check that  entering  string value  in amount field then purchase button is disable ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screencshot -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:RunnerClass.TCNO13_AMOUNT_field_enter_string@71809907]" started-at="2022-10-06T13:27:13 IST" name="closebrowser" finished-at="2022-10-06T13:27:13 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- RunnerClass.TCNO13_AMOUNT_field_enter_string -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
